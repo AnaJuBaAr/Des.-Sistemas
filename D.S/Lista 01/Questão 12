@@ -1,8 +1,0 @@
-public class lista1 {
-    public static void main(String args []){
-        int km = 15;
-        int min = 50;
-        double posicaofinal = (15 * 3000) / 1000;
-        System.out.println("Terminará à "+posicaofinal);
-    }
-}
