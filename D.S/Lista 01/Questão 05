@@ -1,4 +1,4 @@
-public class JavaNetBeans {
+public class Lista1 {
     public static void main(String[] args){
         double polegadas;
         polegadas = 30 * 39.3700787;
