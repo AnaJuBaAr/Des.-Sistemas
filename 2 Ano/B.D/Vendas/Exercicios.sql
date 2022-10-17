@@ -1,3 +1,36 @@
+/*QUESTÕES DA AULA DE 17 DE OUTUBRO DE 2022*/
+/*QUESTÃO 01: Atualizar a tabela cliente alterando o cep de acordo com cada cidade.*/
+UPDATE Cliente
+SET cep = 07262130
+WHERE cidade = 'Belo Horizonte';
+
+UPDATE Cliente
+SET cep = 20081000
+WHERE cidade = 'Rio de Janeiro';
+
+UPDATE Cliente
+SET cep = 1311000
+WHERE cidade = 'Sao Paulo';
+
+/*QUESTÃO 02:*/
+UPDATE Cliente
+SET cidade = 'Sao Paulo'
+WHERE codEstado = 27;
+
+/*QUESTÃO 03: Atualize o código do estado da cidade de São Paulo da tabela cliente*/
+UPDATE Cliente
+SET codEstado = 25
+WHERE cidade = 'Sao Paulo';
+
+/*QUESTÃO 04: Altere o telefone de TODOS os clientes para o seu telefone*/
+UPDATE Cliente
+SET telefone = '33 988631799'
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
 /*QUESTÕES DA AULA DE 10 DE OUTUBRO DE 2022*/
 /*MAX*/
 SELECT c.nome, MAX(p.valor)
