@@ -19,4 +19,8 @@ QUESTÃO 12:
 QUESTÃO 13:
   As classes abstratas são usadas de modelo para as classes filhas. Se um de seus métodos é privado, ele não pode ser acessado pelas subclasses, o que 
 vai contra o propósito de sua criação.
+
+QUESTÃO 15:
+  Um jeito de fazer isso é transformar a classe Veiculo em abstrata, assim como o método calcularFrete, implementando assim o método calcularFrete em todas
+as outras classes, acrescentando suas particularidades.
 */
