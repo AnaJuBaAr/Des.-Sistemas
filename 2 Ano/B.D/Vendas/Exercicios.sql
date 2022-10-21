@@ -32,6 +32,13 @@ SET telefone = '33 988631799'
 
 
 
+/*
+	MAX: retorna o maior valor
+	MIN: retorna o menor valor
+	AVG: retorna a média dos valores
+	SUM: retorna a soma dos valores
+	COUNT: retorna a quantidade de valores
+*/
 /*QUESTÕES DA AULA DE 10 DE OUTUBRO DE 2022*/
 /*MAX*/
 SELECT c.nome, MAX(p.valor)
