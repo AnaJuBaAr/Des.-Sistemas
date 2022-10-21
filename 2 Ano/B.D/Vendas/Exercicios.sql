@@ -30,13 +30,7 @@ SET telefone = '33 988631799'
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-/*
-	MAX: retorna o maior valor
-	MIN: retorna o menor valor
-	SUM: retorna a soma dos valores
-	AVG: retorna a média dos valores
-	COUNT: retorna o n
-*/
+
 
 /*QUESTÕES DA AULA DE 10 DE OUTUBRO DE 2022*/
 /*MAX*/
