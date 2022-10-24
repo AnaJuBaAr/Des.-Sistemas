@@ -1,3 +1,32 @@
+/*QUESTÕES DA AULA DE 21 DE OUTUBRO DE 2022*/
+/*QUESTÃO 01: Excluir um registro das tabelas
+	- Item
+	- Pedido
+	- Cliente
+	- Estado*/
+DELETE
+FROM Item
+WHERE codItem = 5 AND 10;
+
+DELETE
+FROM Pedido
+WHERE codCliente = 9 AND 10;
+
+DELETE FROM Cliente
+WHERE codCliente = 9 AND 10;
+
+DELETE FROM Estado
+WHERE codEstado = 19;
+
+/*QUESTÃO 02: Incluir uma coluna e depois removê-la. Qualquer tabela.*/
+ALTER TABLE Cliente
+ADD COLUMN Sexo VARCHAR(10);
+
+ALTER TABLE Cliente
+DROP COLUMN Sexo;
+
+
+
 /*QUESTÕES DA AULA DE 17 DE OUTUBRO DE 2022*/
 /*QUESTÃO 01: Atualizar a tabela cliente alterando o cep de acordo com cada cidade.*/
 UPDATE Cliente
