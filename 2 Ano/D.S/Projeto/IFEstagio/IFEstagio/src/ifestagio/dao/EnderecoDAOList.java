@@ -24,11 +24,26 @@ public class EnderecoDAOList implements EnderecoDAO{
 
     @Override
     public Endereco get(long idEndereco){
-
+        for(Endereco enderecoTemporario : enderecos){
+            if(enderecoTemporario.getId() == idEndereco){
+                return enderecoTemporario;
+            }
+        }
+        return null;
     }
 
     @Override
-    public void remover(Endereco endereco){
-        
+    public void remover(long idEndereco){
+        for(Endereco enderecoTemporario : enderecos){
+            if(enderecoTemporario.getId() == idEndereco){
+                enderecos.remove(enderecoTemporario);
+            }
+        }
+        return;
+    }
+    
+    @Override
+    public List<Endereco> getTodos(){
+        return enderecos;
     }
 }
