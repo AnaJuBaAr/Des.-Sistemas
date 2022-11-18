@@ -1,3 +1,19 @@
+--QUESTÕES DA AULA DE 18 DE NOVEMBRO DE 2022
+--QUESTÃO 01: Listar todos os clientes da cidade de Belo Horizonte
+SELECT nome, email
+FROM cliente
+WHERE cidade = 'Belo Horizonte';
+
+--QUESTÃO 02: Na consulta a seguir, quantos registros irão retornar? (5) (4) (3X) (2) (6)
+SELECT e.nome, COUNT(e.nome)
+FROM estado e,cliente c
+WHERE e.codestado=c.codestado
+GROUP BY e.nome;
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
 /*QUESTÕES DA AULA DE 21 DE OUTUBRO DE 2022*/
 /*QUESTÃO 01: Excluir um registro das tabelas
 	- Item
@@ -25,6 +41,8 @@ ADD COLUMN Sexo VARCHAR(10);
 ALTER TABLE Cliente
 DROP COLUMN Sexo;
 
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
 /*QUESTÕES DA AULA DE 17 DE OUTUBRO DE 2022*/
