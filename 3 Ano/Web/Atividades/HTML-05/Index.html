@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://www.example.com/subscribe.php">
+        <h1>
+            Formulário
+        </h1>
+        <br>
+        <fieldset>
+            <legend>
+                Dados pessoais
+            </legend>
+            <br>
+            <label>
+                Nome:
+                <input type="text">
+            </label>
+            <br>
+            <br>
+            <label>
+                Endereço:
+                <input type="text">
+            </label>
+            <br>
+            <br>
+            <label>
+                Cidade:
+                <input type="text">
+            </label>
+            <br>
+            <br>
+            <label>
+                Estado:
+                <select 
+                name="estados" 
+                id="">
+                    <option 
+                    value="estado1">
+                        Acre
+                    </option>
+                    <option 
+                    value="estado2">
+                        Alagoas
+                    </option>
+                    <option 
+                    value="estado3">
+                        Amapá
+                    </option>
+                    <option 
+                    value="estado4">
+                        Amazonas
+                    </option>
+                    <option 
+                    value="estado5">
+                        Bahia
+                    </option>
+                    <option 
+                    value="estado6">
+                        Ceará
+                    </option>
+                    <option 
+                    value="estado7">
+                        Espírito Santo
+                    </option>
+                    <option 
+                    value="estado8">
+                        Goiás
+                    </option>
+                    <option 
+                    value="estado9">
+                        Maranhão
+                    </option>
+                    <option 
+                    value="estado10">
+                        Mato Grosso
+                    </option>
+                    <option 
+                    value="estado11">
+                        Mato Grosso do SUl
+                    </option>
+                    <option 
+                    value="estado12">
+                        Minas Gerais
+                    </option>
+                    <option 
+                    value="estado13">
+                        Pará
+                    </option>
+                    <option 
+                    value="estado14">
+                        Paraíba
+                    </option>
+                    <option 
+                    value="estado15">
+                        Paraná
+                    </option>
+                    <option 
+                    value="estado16">
+                        Pernambuco
+                    </option>
+                    <option 
+                    value="estado17">
+                        Piauí
+                    </option>
+                    <option 
+                    value="estado18">
+                        Rio de Janeiro
+                    </option>
+                    <option 
+                    value="estado19">
+                        Rio Grande do Norte
+                    </option>
+                    <option 
+                    value="estado20">
+                        Rio Grande do Sul
+                    </option>
+                    <option 
+                    value="estado21">
+                        Rondônia
+                    </option>
+                    <option 
+                    value="estado22">
+                        Roraima
+                    </option>
+                    <option 
+                    value="estado23">
+                        Santa Catarina
+                    </option>
+                    <option 
+                    value="estado24">
+                        São Paulo
+                    </option>
+                    <option 
+                    value="estado25">
+                        Sergipe
+                    </option>
+                    <option 
+                    value="estado26">
+                        Tocantins
+                    </option>
+                    <option 
+                    value="estado27">
+                        Distrito Federal
+                </select>
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>
+                Dados profissionais
+            </legend>
+            <br>
+            <label>
+                Natureza do Cargo
+                <br>
+                <input 
+                type="radio"
+                name="cargos"
+                value="cargo1"
+                checked="checked"> Gerência
+                <input 
+                type="radio"
+                name="cargos"
+                value="cargo2"> Financeiro
+                <input 
+                type="radio"
+                name="cargos"
+                value="cargo3"> Recepção
+                <input 
+                type="radio"
+                name="cargos"
+                value="cargo4"> Administrativo
+                <input 
+                type="radio"
+                name="cargos"
+                value="cargo5"> Jurídico
+            </label>
+            <br>
+            <br>
+            <label>
+                Área de interesse
+                <br>
+                <input 
+                type="checkbox"
+                name="interesses"
+                value="interesse1"> Computação
+                <input 
+                type="checkbox"
+                name="interesses"
+                value="interesse2"> Biologia
+                <input 
+                type="checkbox"
+                name="interesses"
+                value="interesse3"> Meio Ambiente
+                <input 
+                type="checkbox"
+                name="interesses"
+                value="interesse4"> Engenharia
+                <input 
+                type="checkbox"
+                name="interesses"
+                value="interesse5"> História
+            </label>
+            <br>
+            <br>
+            <label>
+                Mini-currículo:
+                <textarea 
+                name="curriculo" 
+                id="" 
+                cols="60" 
+                rows="7">
+                </textarea>
+            </label>
+        </fieldset>
+        <br>
+        <input 
+        type="submit"
+        value="Enviar">
+        <input 
+        type="submit" 
+        value="Limpar">
+    </form>
+</body>
+</html>
