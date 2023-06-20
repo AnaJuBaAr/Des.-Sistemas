@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Estilos da div contendo a imagem */
+    .image-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    /* Estilos da imagem */
+    .image-container img {
+      display: block;
+      width: 300px;
+      height: auto;
+    }
+
+    /* Estilos da sobreposição de texto */
+    .image-container .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 300px;
+      height: 250px;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    /* Estilos do texto na sobreposição */
+    .image-container .overlay p {
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    /* Efeito ao passar o mouse */
+    .image-container:hover .overlay {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="image-container">
+    <img src="caminho/para/sua/imagem.jpg" alt="Imagem">
+    <div class="overlay">
+      <p>Sobreposição de texto</p>
+    </div>
+  </div>
+</body>
+</html>
