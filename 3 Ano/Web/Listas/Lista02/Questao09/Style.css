@@ -1,0 +1,24 @@
+.alert-box {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: rgb(229, 255, 0);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+  }
+  
+  .alert-icon {
+    float: left;
+    margin-right: 10px;
+    color: rgb(255, 0, 0);
+  }
+  
+  .alert-content {
+    overflow: hidden;
+  }
+  
+  .alert-content p {
+    margin: 0;
+  }
+  
