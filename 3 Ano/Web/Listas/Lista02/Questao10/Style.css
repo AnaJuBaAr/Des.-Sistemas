@@ -1,0 +1,15 @@
+.image-container {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image {
+    transition: transform 0.3s ease;
+  }
+  
+  .image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
