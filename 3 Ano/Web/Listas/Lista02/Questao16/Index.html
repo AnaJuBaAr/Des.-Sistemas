@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Estilos básicos do formulário */
+    .login-form {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+
+    /* Estilos do título do formulário */
+    .login-form h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    /* Estilos dos campos de entrada */
+    .login-form input[type="text"],
+    .login-form input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+
+    /* Estilos do botão de envio */
+    .login-form button[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    /* Estilos dos links "Esqueci minha senha" e "Registro" */
+    .login-form .forgot-password,
+    .login-form .register-link {
+      display: block;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-form">
+    <h2>Formulário de Login</h2>
+    <form>
+      <input type="text" placeholder="Nome de usuário" required>
+      <input type="password" placeholder="Senha" required>
+      <button type="submit">Entrar</button>
+    </form>
+    <a class="forgot-password" href="#">Esqueci minha senha</a>
+    <a class="register-link" href="#">Registro</a>
+  </div>
+</body>
+</html>
