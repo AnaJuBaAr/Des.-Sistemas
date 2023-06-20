@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Estilos do contêiner do carregamento */
+    .loading-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+    }
+
+    /* Estilos do círculo de carregamento */
+    .loading-circle {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 4px solid #007bff;
+      border-top-color: transparent;
+      animation: spin 1s infinite linear;
+    }
+
+    /* Animação de rotação do círculo */
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="loading-container">
+    <div class="loading-circle"></div>
+  </div>
+</body>
+</html>
