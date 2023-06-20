@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Estilos básicos do menu */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    /* Estilização do botão do menu */
+    .dropdown .dropdown-btn {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    /* Estilização da lista de opções */
+    .dropdown-content {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 200px;
+      background-color: #f9f9f9;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      border-radius: 4px;
+      padding: 10px;
+      display: none;
+    }
+
+    /* Estilização dos itens da lista */
+    .dropdown-content a {
+      display: block;
+      color: #333;
+      padding: 8px 10px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    /* Estilização dos itens da lista ao passar o mouse */
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+
+    /* Mostrar a lista de opções ao passar o mouse no botão */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="dropdown">
+    <button class="dropdown-btn">Menu</button>
+    <div class="dropdown-content">
+      <a href="#">Opção 1</a>
+      <a href="#">Opção 2</a>
+      <a href="#">Opção 3</a>
+    </div>
+  </div>
+</body>
+</html>
